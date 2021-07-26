@@ -1,0 +1,112 @@
+ion-content {
+  --padding-start: 10px;
+  --padding-end: 10px;
+
+  .h2-login {
+    margin-top: 10%;
+    font-weight: bolder;
+  }
+
+  ion-item:nth-child(2) {
+    margin-bottom: 20px;
+  }
+
+  .label-input {
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+  .input-custom {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    --padding-start: 11px;
+    --padding-end: 36px;
+  }
+
+  ion-checkbox {
+    margin-right: 8px;
+    --transition: none;
+  }
+
+  .item-checkbox {
+    --ripple-color: transparent;
+  }
+
+  .icon-eye {
+    display: block;
+    position: absolute;
+    right: 22px;
+    top: 45px;
+  }
+
+  .row-login {
+    margin-top: -16px;
+  }
+
+  .btn-login {
+    --border-radius: 5px;
+    margin-left: 12px;
+    margin-top: 28px;
+    height: 36px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+  }
+
+  .p-forget__password {
+    font-size: smaller;
+    margin-top: 36px;
+    font-weight: bolder;
+  }
+
+  .hr-left {
+    background: darkgray;
+    width: 20%;
+    display: block;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 20px;
+  }
+
+  .hr-right {
+    background: darkgray;
+    width: 20%;
+    display: block;
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 20px;
+    right: 22px;
+  }
+
+  .div-social__network {
+    margin-top: 40px;
+    display: block;
+  }
+
+  .row-social__network {
+    ion-button {
+      --padding-start: 38px;
+    }
+  }
+
+  .icon-facebook {
+    display: block;
+    position: absolute;
+    left: -30px;
+  }
+
+  .icon-twitter {
+    display: block;
+    position: absolute;
+    left: -24px;
+  }
+
+  .p-signup {
+    margin-top: 14%;
+
+    a {
+      text-decoration: none;
+      font-weight: bolder;
+    }
+  }
+}

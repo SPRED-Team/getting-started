@@ -1,0 +1,80 @@
+<ion-content class="ion-padding">
+  <h2 class="ion-text-center h2-login">Login</h2>
+
+  <ion-item lines="none">
+    <ion-label position="stacked" class="label-input">Email</ion-label>
+    <ion-input
+      class="input-custom"
+      type="text"
+      placeholder="Awesome Input"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item lines="none">
+    <ion-label position="stacked" class="label-input">Password</ion-label>
+    <ion-input
+      class="input-custom"
+      type="text"
+      placeholder="Awesome Input"
+    ></ion-input>
+    <ion-icon class="icon-eye" name="eye-outline"></ion-icon>
+  </ion-item>
+
+  <ion-item lines="none" class="item-checkbox">
+    <ion-label>Remind me</ion-label>
+    <ion-checkbox slot="start" color="tertiary"></ion-checkbox>
+  </ion-item>
+
+  <ion-row class="row-login">
+    <ion-col size="5">
+      <ion-button
+        mode="ios"
+        class="btn-login"
+        expand="block"
+        shape="round"
+        color="secondary"
+      >
+        Login
+      </ion-button>
+    </ion-col>
+    <ion-col offset="2" size="5">
+      <p class="p-forget__password">Forget password?</p>
+    </ion-col>
+  </ion-row>
+
+  <div class="div-social__network">
+    <hr class="hr-left" />
+    <p class="ion-text-center">or connect with</p>
+    <hr class="hr-right" />
+  </div>
+
+  <ion-row class="row-social__network">
+    <ion-col size="6">
+      <ion-button
+        mode="ios"
+        class="btn-login"
+        expand="block"
+        shape="round"
+        color="secondary"
+      >
+        <ion-icon class="icon-facebook" name="logo-facebook"></ion-icon>
+        Facebook
+      </ion-button>
+    </ion-col>
+
+    <ion-col size="6">
+      <ion-button
+        mode="ios"
+        class="btn-login"
+        expand="block"
+        shape="round"
+        color="secondary"
+      >
+        <ion-icon class="icon-twitter" name="logo-twitter"></ion-icon>
+        Twitter
+      </ion-button>
+    </ion-col>
+  </ion-row>
+
+  <p class="ion-text-center p-signup">Don't have account? <a href="">Sign up</a></p>
+</ion-content>
